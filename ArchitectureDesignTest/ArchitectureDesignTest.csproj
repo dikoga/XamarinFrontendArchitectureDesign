@@ -106,6 +106,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="Test2\SecondStoryboard.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -139,6 +140,21 @@
     <Compile Include="MainMenuController.designer.cs">
       <DependentUpon>MainMenuController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test2\SplitView.cs" />
+    <Compile Include="Test2\SplitView.designer.cs">
+      <DependentUpon>SplitView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test2\MainViewController.cs" />
+    <Compile Include="Test2\MainViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test2\MenuController2.cs" />
+    <Compile Include="Test2\MenuController2.designer.cs">
+      <DependentUpon>MenuController2.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Test2\" />
+  </ItemGroup>
 </Project>
