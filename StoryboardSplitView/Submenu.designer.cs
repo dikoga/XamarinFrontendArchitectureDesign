@@ -9,10 +9,10 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace ArchitectureDesignTest
+namespace StoryboardSplitView
 {
-	[Register ("RootController")]
-	partial class RootController
+	[Register ("Submenu")]
+	partial class Submenu
 	{
 		void ReleaseDesignerOutlets ()
 		{

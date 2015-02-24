@@ -119,13 +119,13 @@
     <Compile Include="MainSplit.designer.cs">
       <DependentUpon>MainSplit.cs</DependentUpon>
     </Compile>
-    <Compile Include="SettingsSplit.cs" />
-    <Compile Include="SettingsSplit.designer.cs">
-      <DependentUpon>SettingsSplit.cs</DependentUpon>
+    <Compile Include="SubmenuSplit.cs" />
+    <Compile Include="SubmenuSplit.designer.cs">
+      <DependentUpon>SubmenuSplit.cs</DependentUpon>
     </Compile>
-    <Compile Include="SettingsMenu.cs" />
-    <Compile Include="SettingsMenu.designer.cs">
-      <DependentUpon>SettingsMenu.cs</DependentUpon>
+    <Compile Include="Submenu.cs" />
+    <Compile Include="Submenu.designer.cs">
+      <DependentUpon>Submenu.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

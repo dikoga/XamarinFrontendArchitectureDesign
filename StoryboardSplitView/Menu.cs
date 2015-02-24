@@ -23,8 +23,8 @@ namespace StoryboardSplitView
 					new StringElement ("Navigation", () => {
 						MenuSelected (null, "Navigation");
 					}),
-					new StringElement ("Split", () => {
-						MenuSelected (null, "Split");
+					new StringElement ("Submenu Split", () => {
+						MenuSelected (null, "SubmenuSplit");
 					})
 				}
 			};

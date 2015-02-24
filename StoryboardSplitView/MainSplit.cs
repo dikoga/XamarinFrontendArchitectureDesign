@@ -17,10 +17,13 @@ namespace StoryboardSplitView
 
 		void HandleMenuSelected (object sender, string e)
 		{
-			this.PerformSegue(e, this);
-			//((Menu)this.ViewControllers [0]).RemoveFromParentViewController ();
+			if (e == "SubmenuSplit") {
+				this.ShowDetailViewController (AppDelegate.Storyboard.InstantiateViewController ("SubmenuSplit"), this);
+				return;
+			}
 
-			//base.DismissModalViewController (true);
+			this.PerformSegue(e, this);
+
 		}
 
 
@@ -31,6 +34,7 @@ namespace StoryboardSplitView
 			{
 				return true;
 			}
+
 		}
 	}
 }

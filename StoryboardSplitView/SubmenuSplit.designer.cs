@@ -9,10 +9,10 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace Storyboard
+namespace StoryboardSplitView
 {
-	[Register ("MainView")]
-	partial class MainView
+	[Register ("SubmenuSplit")]
+	partial class SubmenuSplit
 	{
 		void ReleaseDesignerOutlets ()
 		{
